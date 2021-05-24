@@ -11,9 +11,9 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "Goose Golden Egg",
-      "symbol": "EGG",
-      "address": "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
+      "name": "Martian",
+      "symbol": "MRT",
+      "address": "0x65d8861d66f0b77faf82e0cc8377ef4539b6c69a",
       "chainId": 56,
       "decimals": 18
     },

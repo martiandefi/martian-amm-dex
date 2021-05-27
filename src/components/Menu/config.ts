@@ -33,17 +33,39 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Referrals',
-    icon: 'PoolIcon',
+    icon: 'ReferralsIcon',
     href: `${process.env.REACT_APP_MAIN_BASE_URL}/referrals`,
   },
   {
     label: 'Audits',
-    icon: 'PoolIcon',
+    icon: 'AuditIcon',
     href: 'https://github.com/martiandefi/audit',
   },
   {
+    label: 'Price Chart',
+    icon: 'ChartIcon',
+    items: [
+      {
+        label: 'DexGuru',
+        href: 'https://dex.guru/token',
+      },
+      {
+        label: 'PooCoin',
+        href: 'https://poocoin.app/tokens',
+      },
+      {
+        label: 'BoggedFinance',
+        href: 'https://charts.bogged.finance/?token',
+      },
+      {
+        label: 'DexTools',
+        href: 'https://www.dextools.io/app/pancakeswap/pair-explorer',
+      },
+    ],
+  },
+  {
     label: 'Features',
-    icon: 'InfoIcon',
+    icon: 'FeaturesIcon',
     items: [
       {
         label: 'Transfer Tax',
@@ -72,6 +94,33 @@ const config: MenuEntry[] = [
     ],
   },
   {
+    label: 'Listings',
+    icon: 'ListIcon',
+    items: [
+      {
+        label: 'BscScan',
+        href: 'https://bscscan.com/token/0x65d8861d66f0b77faf82e0cc8377ef4539b6c69a',
+      },
+      {
+        label: 'DappRadar',
+        href: '',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: '',
+      },
+      {
+        label: 'CoinGecko',
+        href: '',
+      }
+    ],
+  },
+  {
+    label: 'Analytics',
+    icon: 'InfoIcon',
+    href: '',
+  },
+  {
     label: 'More',
     icon: 'MoreIcon',
     items: [
@@ -88,16 +137,6 @@ const config: MenuEntry[] = [
         href: 'https://martianswap.gitbook.io/martianswap/roadmap-1',
       },
     ],
-  },
-  {
-    label: 'Listings (Coming Soon)',
-    icon: 'PoolIcon',
-    href: '#',
-  },
-  {
-    label: 'Analytics (Coming Soon)',
-    icon: 'PoolIcon',
-    href: '',
   },
 ]
 export default config
